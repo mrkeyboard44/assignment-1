@@ -144,3 +144,37 @@ textarea {
         'm'
         'f';
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-rows: 125px 1fr min-content auto;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'h'
+            'm'
+            's'
+            'f';
+        min-width: 325px;
+    }
+    header {
+        font-size: 18px;
+    }
+    p, .button {
+        font-size: 20px;
+    }
+    aside {
+        padding-bottom: 3rem;
+    }
+    button {
+        padding: 0.5rem;
+    }
+    textarea {
+        min-width: 230px;
+    }
+    footer {
+        padding-left: 1rem;
+    }
+    .sidebar {
+        align-self: flex-end;
+    }
+}
