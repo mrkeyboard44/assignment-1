@@ -144,7 +144,6 @@ textarea {
         'm'
         'f';
 }
-
 @media screen and (max-width: 600px) {
     .container {
         grid-template-rows: 125px 1fr min-content auto;
